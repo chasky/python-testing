@@ -34,7 +34,7 @@ pipeline {
  stage('Test4') {
      steps {
        echo "Aquiiiiiiiiiiiiiiiiiii"
-       sh "./docker2_run.sh"
+       sh "./docker_run2.sh"
      }
    }
 
