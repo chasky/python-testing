@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dockersin run node:7-alpine node --version
+docker run node:7-alpine node --version
 if [ $? != 0 ]; then
   exit 1
 fi
